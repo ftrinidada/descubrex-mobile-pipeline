@@ -14,9 +14,11 @@ Cada aplicación conserva su workflow activo en su propio repositorio. El reposi
 
 1. Se actualiza la versión y build number dentro del repositorio de la app.
 2. CI compila y valida el cambio.
-3. Un tag `vX.Y.Z` o una ejecución manual inicia el workflow de release.
+3. Una ejecución manual inicia el workflow de release. Los tags `vX.Y.Z` son marcadores de Git separados y no inician cargas a las tiendas.
 4. GitHub Actions recupera secretos del environment correspondiente, firma el artefacto y lo sube a pruebas.
 5. La publicación en producción requiere una aprobación explícita y una revisión en la consola de la tienda.
+
+Crear, subir o borrar un tag siempre requiere una petición explícita. Pedir que se suba una versión a pruebas no crea ningún tag.
 
 ## Entornos de GitHub
 

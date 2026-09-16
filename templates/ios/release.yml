@@ -9,8 +9,6 @@ on:
         default: testflight
         type: choice
         options: [testflight, production]
-  push:
-    tags: ['v*.*.*']
 
 permissions:
   contents: read

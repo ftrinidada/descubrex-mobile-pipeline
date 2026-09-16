@@ -9,8 +9,6 @@ on:
         default: internal
         type: choice
         options: [internal, production]
-  push:
-    tags: ['v*.*.*']
 
 permissions:
   contents: read

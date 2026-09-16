@@ -9,7 +9,7 @@ Este repositorio explica el proceso y conserva ejemplos reutilizables. Los workf
 | Plataforma | Repositorio de la aplicación | Workflow de CI | Workflow de release |
 | --- | --- | --- | --- |
 | Android | [ftrinidada/descubreX-android](https://github.com/ftrinidada/descubreX-android) | `.github/workflows/ci.yml` | `.github/workflows/release.yml` |
-| iOS | [franciscoMinbits/descubreX](https://github.com/franciscoMinbits/descubreX) | `.github/workflows/ci.yml` | `.github/workflows/release.yml` |
+| iOS | [ftrinidada/descubreX](https://github.com/ftrinidada/descubreX) | `.github/workflows/ci.yml` | `.github/workflows/release.yml` |
 
 Los archivos bajo `templates/` son copias genéricas de referencia: cambiarlos no publica ni altera una app.
 
